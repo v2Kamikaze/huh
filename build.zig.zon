@@ -1,0 +1,22 @@
+.{
+    .name = "huh",
+
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .zap = .{
+            .url = "https://github.com/zigzap/zap/archive/refs/tags/v0.8.0.tar.gz",
+            .hash = "12209936c3333b53b53edcf453b1670babb9ae8c2197b1ca627c01e72670e20c1a21",
+        },
+        .httpz = .{
+            .url = "https://github.com/karlseguin/http.zig/archive/refs/heads/master.zip",
+            .hash = "1220d7fcde08104248ce554d758dd1a44d36bc740576c746572f387ca37cbb85875f",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
